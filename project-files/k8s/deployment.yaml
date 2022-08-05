@@ -52,7 +52,7 @@ spec:
     spec:
       containers:
       - name: kubenews
-        image: ciceribeiroo/kube-news:v1
+        image: ciceribeiroo/kube-news:latest
         env:
         - name: DB_DATABASE
           value: "kubenews"
